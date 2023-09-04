@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+    justify-content: center;
+    column-gap: 15px;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+.box{
+    width: 315px;
+    height: 345PX;
+   border-radius: 10px;
+   padding : 2em 2em 0;
+   overflow : hidden;
+   height : 345px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between; ;
+
+}
+.box1{background-color: #00b39b;}
+.box2{background-color:#3d83df;}
+.box3{background-color:#1b2734 ;}
+
+
+.box h1{font-size: 1.625em;
+    font-weight: 400;
+    color: #fff;
+    font-family: Work Sans,Arial,sans-serif;
+    letter-spacing: -.3px;}
+.box h2{
+    font-size: 1.5em;
+    font-weight: 300;
+    line-height: 1.2;
+    color: #fff;
+    font-family: Work Sans,Arial,sans-serif;
+    letter-spacing: -.3px;
+    #1b2734#1b2734
+}
+.box select{margin-bottom: 15px;
+border: none;
+background-color: transparent;
+text-decoration: underline;
+color: #fff;
+font-size: larger;
+}
+.boxx{width: 25%;
+padding: 35px;
+background-color: #fff;
+box-shadow: 10px 10px  10px #caa35a;
+margin-top: 50px;
+
+}
+.boxx img{width: 100%;}
+.flex{display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin:auto ;
+}
+.picture{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    justify-content: center;
+    /* margin-top: 10px; */
+    row-gap: 15px;
+}
+
+.para{
+   width: 25%;
+margin-left: 40%;
+margin-top: 5%;
+margin-top: 5% ;
+font-size: larger;
+
+}
+.yalla{display: table;
+margin-left: 2%;
+margin-top: 5pc;
+margin-bottom: 5pc; 
+padding: 30px;}
+.col-2{ width: 50% ;
+    float: left;
+    min-height: 1px;
+    padding: 10px
+    font-family: Roboto,Arial,sans-serif;
+    color: #747474;
+font-size: larger;}
+.h1{margin-top: 5pc;}
+.hero{display: flex;
+align-items: center;
+justify-content: space-between;
+padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+   
+}
+.hero ul{font-size: larger;}
+
+li{display: inline;
+    border-style: hidden;  
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+
+  
+}
+a:hover{
+    color: #00b39b;
+}
+a{color: #ababab;
+    text-decoration: none;
+    font-weight: bold;
+    }
+
+
+.hover-li:hover{
+    border: #1b2734;
+    border: #00b39b solid 1px;
+}
